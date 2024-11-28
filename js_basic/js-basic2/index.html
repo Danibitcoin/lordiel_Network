@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Introduction</title>
+</head>
+<body>
+
+    <p id="Paragraph">Lorem ipsum dolor sit amet.</p>
+
+    <p id="Para">Lorem ipsum dolor sit amet. Lorem, ipsum dolor.</p>
+
+    <button type="button" onclick="changeText()">Change Text</button>
+
+
+
+    <button onclick="document.getElementById('bulb').src='./img/pic_bulbon.png';" >Turn on</button>
+
+    <img id="bulb" src="./img/pic_bulboff.png" alt="" width="100">
+
+    <button onclick="document.getElementById('bulb').src='./img/pic_bulboff.png';" >Turn Off</button>
+
+   
+
+    <p id="fname"></p>
+
+    <p id="carr"></p>
+    
+    <span id="newText">
+
+    </span>
+    <button type="button"  onclick="newText()" >new Text</button>
+<p id="scope1"></p>
+<p id="scope2"></p>
+
+
+<p id="demo"></p>
+
+
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+
+
+
+
+    <!-- <script>
+        document.write('Messi is a goat');
+        window.alert('CR7');
+        console.log(5+5);
+    </script> -->
+
+   
+
+
+    
+    <script src="script.js"></script>
+</body>
+</html>

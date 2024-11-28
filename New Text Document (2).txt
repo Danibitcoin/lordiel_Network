@@ -1,0 +1,60 @@
+<div>
+        <!-- <img src="slide.png" alt=""width="450"> -->
+       
+     <h1>-</h1>
+        <h1>STRONGEST</h1>
+        <h1>DISTRIBUTION <span></span> </h1>
+        <h1>NETWORK</h1>
+   </div>
+    <div></div>
+
+ header{ display: flex;
+    align-items: center;
+    color: black;
+       height: 12vh;
+       align-items: center;
+       justify-content: space-around ;
+       border-bottom: solid white 1px;
+   /* background: linear-gradient(to right, pink,purple); */
+   }
+   
+   header>nav>ul{
+   list-style-type:none;
+   display: flex;
+   justify-content:space-between ;
+   width: 60%;
+   font-size: 15px;
+   
+   
+   }
+   
+   header>nav{
+   display: flex;
+   align-items: center;
+   width: 70vw;
+   justify-content: space-between;
+   }
+   
+   header>div{ width: 10vw;
+       display: flex;
+       justify-content: space-between;
+       
+   
+   
+   }
+   
+   
+   header>div>img{
+       text-decoration: none ;
+       font-size: 25px;
+   color: black;
+   justify-content: space-between;
+   
+   }
+
+ <div class="form-group">
+                    <button type="submit">Register Badge</button>
+                </div>
+   .sign{ background-color:rgb(209, 214, 214) ;
+       padding: 10px;
+       border-radius: 50px;

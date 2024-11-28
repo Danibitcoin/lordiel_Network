@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+
+     /* Bordered form */
+form {
+  border: 300px solid #0c6cda;
+}
+.log{background-color: #0d5ba5;}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 2px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4219a0;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+/* Add a hover effect for buttons 
+button:hover {
+  opacity: 0.8;
+}*
+
+/* Extra style for the cancel button (red) */
+.cancelbtn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}-->
+
+/* Center the loginform inside this container */
+.loginform {
+  text-align: center;
+  margin: 24px  12px 0;
+}
+
+/* Avatar image 
+img.avatar {
+  width: 40%;
+  border-radius: 50%;
+}*/
+
+/* Add padding to containers */
+.container {
+  padding: 19px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+   
+  padding-top: px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+  .cancelbtn {
+    width: 100%;
+  }
+} 
+
+.atag active {
+  color: rgb(19, 202, 162);
+  background-color: transparent;
+  text-decoration: none;}
+
+  
+</style>
+
+
+<body>
+    
+
+
+ 
+
+
+
+     <!-- Button to open the modal login form -->
+<button onclick="document.getElementById('id01').style.display='block'">Loginhhh</button> --
+
+<!-- The Modal -->
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'"
+class="close" title="Close Modal">&times;</span>
+
+  <!-- login form Content -->
+  <form class="modal-content animate" action="#">
+    <div class="loginform"> <h1> Login Form 
+    </div>
+
+
+
+    <div class="container">
+      <label for="uname"><b>Email or Phone </b></label>
+      <input type="text" placeholder="nlekwem@luzoma.com" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="**********" name="psw" required>
+
+      <button type="submit">Login</button> 
+      
+      <center><h3> Not a member? <a class="atag" href="#" >Signup Now</a></h3></center>
+    </div>
+
+    <!--<div class="container" style="background-color:whitesmoke">
+      <!--<button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>-->
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+
+
+  <center>
+<marquee behavior="" direction="left">login page</marquee>
+
+  </center>
+</div> 
+</body>
+</html>
